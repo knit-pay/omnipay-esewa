@@ -1,5 +1,5 @@
 {
-  "name": "sudiptpa/omnipay-esewa",
+  "name": "knit-pay/omnipay-esewa",
   "type": "library",
   "description": "eSewa API driver for the Omnipay payment processing library.",
   "keywords": [
@@ -10,16 +10,11 @@
     "payment",
     "esewa"
   ],
-  "homepage": "https://github.com/sudiptpa/esewa",
+  "homepage": "https://github.com/knit-pay/omnipay-esewa/",
   "license": "MIT",
   "authors": [
     {
-      "name": "Sujip Thapa",
-      "email": "sudiptpa@gmail.com"
-    },
-    {
-      "name": "Pralhad Kumar Shrestha",
-      "email": "pralhad.shrestha05@gmail.com"
+      "name": "Knit Pay",
     }
   ],
   "autoload": {
@@ -31,19 +26,13 @@
     ]
   },
   "require": {
-    "omnipay/common": "^3",
-    "symfony/http-client": "^7.2"
+    "omnipay/common": "^3"
   },
   "require-dev": {
     "omnipay/tests": "^4",
     "squizlabs/php_codesniffer": "^3",
     "phpro/grumphp": "^2.10.0",
     "http-interop/http-factory-guzzle": "^1.2"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.x-dev"
-    }
   },
   "scripts": {
     "test": "vendor/bin/phpunit",
